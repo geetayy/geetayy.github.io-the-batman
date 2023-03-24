@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'canela_deck_regular_trialRg';
+    src: url('caneladeck-medium-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'canela_deck_trialbold';
+    src: url('caneladeck-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    margin: auto;
+}
+
+:root{
+    --color-primary:#00e8ff;
+    --color-secondary:rgba(22, 27, 12, 1);
+    --color-accent:  #fff500;
+    --text-primary: 'canela_deck_regular_trialRg';
+    --text-heading:'canela_deck_trialbold';
+}
+
+h1{
+    font-family: var(--text-heading);
+    font-size: 3rem;
+}
+.logo{
+    width: 200px;
+    padding: 10px;
+    margin-left: 30px;
+}
+
+  nav{
+    /* background-color: var(--color-accent); */
+    display: flex;
+    margin-inline: auto;
+    width: 1400px;
+    margin-top: -10px;
+
+}
+
+nav ul{
+    padding: 12px;
+    list-style: none;
+    display: flex;
+    align-content:space-around;
+    background-color: var(--color-secondary);
+    height: 20px;
+    width: 1024px;
+    
+}
+
+nav li{
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: var(--text-heading);
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+p{
+    font-family: var(--text-primary);
+    font-size: 1.2rem;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: var(--color-accent);
+    width: 1024px;
+    margin: auto;
+    margin-top: -10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+#comic-pic {
+    width: 700px;
+    margin: auto;
+    display: block;
+    /* margin-left : 20px; */
+}
+
+#bat-farm-img{
+    width: 900px;
+    margin: auto;
+    display: block;
+    /* border: 2px solid white;
+    border-radius: 5px; */
+}
+
+.menu-bar{
+    display: flex;
+    width: 1024px;
+    margin: auto;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.brand{
+    display: flex;
+    justify-content: flex-end;
+}
+
+strong {
+    font-size: 2rem;
+   font-weight: 600;
+}
+
